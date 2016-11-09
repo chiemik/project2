@@ -17,7 +17,104 @@
     </head>
     <body>
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <section class="travel-guests">
+            
+        <p class="notify"></p>
+        
+        <h1>Travel Questionnaire Form</h1>
+        
+        <p>* denotes a required field.</p>
+            
+        <form name="travelForm" action="php/survey.php" onsubmit="return" method="post">
+            
+            <p>
+                <label for="placetogo">Where would like to go for travel? :</label></p>
+                <p>
+                <input id="q1answer" type="radio" name="PlacetoGo" value="Beach">
+                <label id="answer">Beach</label>
+                <br>
+                <input id="q1answer" type="radio" name="PlacetoGo" value="Mountain">
+                <label id="answer">Mountain</label>
+                <br>
+                <input id="q1answer" type="radio" name="PlacetoGo" value="Big City">
+                <label id="answer">Big City</label>
+                <br>
+                <input id="q1answer" type="radio" name="PlacetoGo" value="World Heritage">
+                <label id="answer">World Heritage</label>
+            </p>
+            
+            <p>
+                <label for="region">Which region would you like to visit? :</label></p>
+                <p>
+                <input id="q2answer" type="radio" name="Region" value="Europe">
+                <label id="answer">Europe</label>
+                <br>
+                <input id="q2answer" type="radio" name="Region" value="North America">
+                <label id="answer">North America</label>
+                <br>
+                <input id="q2answer" type="radio" name="Region" value="South America">
+                <label id="answer">South America</label>
+                <br>
+                <input id="q2answer" type="radio" name="Region" value="Asia">
+                <label id="answer">Asia</label>               
+
+            </p>
+ 
+            <p>
+                <label for="purpose">What would you do there?:</label></p>
+                <p>
+                <input id="q3answer" type="radio" name="Purpose" value="Relax">
+                <label id="answer">Relax</label>
+                <br>
+                <input id="q3answer" type="radio" name="Purpose" value="Adventure">
+                <label id="answer">Adventure</label>
+                <br>
+                <input id="q3answer" type="radio" name="Purpose" value="Sight Seeing">
+                <label id="answer">SightSeeing</label>
+                <br>
+                <input id="q3answer" type="radio" Shoppingname="Purpose" value="Shopping">
+                <label id="answer">Shopping</label>               
+            </p>
+            
+             <p>
+                <label for="period">How long will you travel?:</label></p>
+                <p>
+                <input id="q4answer" type="radio" name="Period" value="less than 1week">
+                <label id="answer">less than 1week</label>
+                <br>
+                <input id="q4answer" type="radio" name="Period" value="over 1week less than 2 weeks">
+                <label id="answer">over 1week less than 2weeks</label>
+                <br>
+                <input id="q4answer" type="radio" name="Period" value="over 2weeks less than 3 weeks">
+                <label id="answer">over 2weeks less than 3weeks</label>
+                <br>
+                <input id="q4answer" type="radio" Shoppingname="Period" value="more than 3 weeks">
+                <label id="answer">more thatn 3weeks</label>               
+            </p> 
+   
+             <p>
+                <label for="companion">Who would you like to go with? :</label></p>
+                <p>
+                <input id="q5answer" type="radio" name="Companion" value="Alone">
+                <label id="answer">Alone</label>
+                <br>
+                <input id="q5answer" type="radio" name="Companion" value="with Friend">
+                <label id="answer">with friend</label>
+                <br>
+                <input id="q5answer" type="radio" name="Companion" value="with Couple">
+                <label id="answer">with couple</label>
+                <br>
+                <input id="q5answer" type="radio" name="Companion" value="with Family">
+                <label id="answer">with Family</label>
+                
+            </p> Thank you! :</label></p>
+            
+            <input type="submit" value="Submit">
+            
+        </form>
+
+       </section>
+        <script src="js/main.js"></script>        
 
     </body>
 </html>
